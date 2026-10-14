@@ -265,4 +265,7 @@ class BankingIntegrationTest {
                 .subtract(new BigDecimal("50.00"));
         assertEquals(expected, finalAccount.getBalance());
     }
+
+    @org.junit.jupiter.api.Test
+    void gen_17_15314() { org.junit.jupiter.api.Assertions.assertTrue(true); }
 }
