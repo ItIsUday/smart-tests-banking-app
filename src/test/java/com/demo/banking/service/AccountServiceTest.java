@@ -162,4 +162,7 @@ class AccountServiceTest {
 
     @org.junit.jupiter.api.Test
     void generated_2_31378() { org.junit.jupiter.api.Assertions.assertTrue(true); }
+
+    @org.junit.jupiter.api.Test
+    void generated_8_3395() { org.junit.jupiter.api.Assertions.assertTrue(true); }
 }
