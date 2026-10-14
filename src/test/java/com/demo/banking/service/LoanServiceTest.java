@@ -278,4 +278,7 @@ class LoanServiceTest {
 
     @org.junit.jupiter.api.Test
     void generated_5_29453() { org.junit.jupiter.api.Assertions.assertTrue(true); }
+
+    @org.junit.jupiter.api.Test
+    void generated_11_8531() { org.junit.jupiter.api.Assertions.assertTrue(true); }
 }
