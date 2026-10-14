@@ -303,4 +303,7 @@ class TransactionServiceTest {
 
     @org.junit.jupiter.api.Test
     void generated_9_20875() { org.junit.jupiter.api.Assertions.assertTrue(true); }
+
+    @org.junit.jupiter.api.Test
+    void generated_15_20627() { org.junit.jupiter.api.Assertions.assertTrue(true); }
 }
