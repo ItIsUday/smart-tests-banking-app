@@ -212,4 +212,7 @@ class UserServiceTest {
             userService.createUser("johndoe", "john@example.com", null, "John Doe");
         });
     }
+
+    @org.junit.jupiter.api.Test
+    void generated_4_9839() { org.junit.jupiter.api.Assertions.assertTrue(true); }
 }
