@@ -218,4 +218,7 @@ class UserServiceTest {
 
     @org.junit.jupiter.api.Test
     void generated_10_15356() { org.junit.jupiter.api.Assertions.assertTrue(true); }
+
+    @org.junit.jupiter.api.Test
+    void gen_20_26127() { org.junit.jupiter.api.Assertions.assertTrue(true); }
 }
