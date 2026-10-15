@@ -52,11 +52,14 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.6.0</version>
         <configuration>
           <reportFormat>plain</reportFormat>
           <useFile>false</useFile>
           <!-- Generate XML reports for Smart Tests -->
           <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+          <!-- Emit <testsuite timestamp="..."> so elapsed-time Option 2 (JUnit XML) is computable -->
+          <reportTestTimestamp>true</reportTestTimestamp>
         </configuration>
       </plugin>
     </plugins>
